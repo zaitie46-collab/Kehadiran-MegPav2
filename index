@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Kehadiran MegPa</title>
+
+  <!-- Ikon untuk Android & iPhone -->
+  <link rel="icon" type="image/png" sizes="192x192" href="logo.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="logo.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="logo.png">
+  <meta name="theme-color" content="#0b4db8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Kehadiran MegPa">
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-color: #eef4fb;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <iframe 
+    src="https://script.google.com/macros/s/AKfycbwxcYGXV9p2sIYOs5tMHVlKZ0yUPKZL1Z5H9i_tMvIfBrvxf3KtZ953Fo7SojOaoDe5Aw/exec " 
+    allow="geolocation *; camera *; microphone *"
+    allowfullscreen>
+  </iframe>
+</body>
+</html>
